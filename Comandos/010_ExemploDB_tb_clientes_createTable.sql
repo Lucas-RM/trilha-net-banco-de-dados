@@ -7,5 +7,5 @@ CREATE TABLE Produtos (
 	Genero char(1) NULL
 )
 
-exec sp_help Produtos -- Alt + F1 
-SELECT * FROM dbo.Produtos
+exec sp_help Produtos -- Alt + D 
+SELECT * FROM ExemploDB.[dbo].[Produtos]
