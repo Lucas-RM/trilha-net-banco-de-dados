@@ -1,0 +1,10 @@
+/* FILTRANDO TODOS QUE COMEÇAM COM A LETRA 'G' */
+SELECT * FROM Clientes
+WHERE Nome LIKE 'G%'
+ORDER BY Nome, Sobrenome
+
+
+/* FILTRANDO TODOS QUE TEM A LETRA 'G' */
+SELECT * FROM Clientes
+WHERE Nome LIKE '%G%'
+ORDER BY Nome, Sobrenome
