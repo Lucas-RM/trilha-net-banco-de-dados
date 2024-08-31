@@ -9,7 +9,7 @@ BEGIN TRAN -- Entro em um módulo que posso desfazer minhas alterações.
 
 
 /* 
-	DEPOIS DO UPDATE, SE QUISER VOLTAR COMO TAVA, 
+	DEPOIS DO DELETE, SE QUISER VOLTAR COMO TAVA, 
 	EXECUTE O COMANDO ABAIXO:
 */
 ROLLBACK
